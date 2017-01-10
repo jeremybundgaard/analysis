@@ -1,0 +1,271 @@
+
+#include <stdio.h>
+#include <vector>
+
+std::vector<std::string> runList(const char* actinide, int preamp ,bool fissionTrigger){
+
+std::vector<std::string> runs;
+
+if ( !(strcmp(actinide,"cm244")) )
+{
+	if ( fissionTrigger )
+	{
+		if (preamp==1)
+		{
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001940_20Jun2013_17-43.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001941_20Jun2013_17-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001942_20Jun2013_18-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001943_20Jun2013_19-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001944_20Jun2013_20-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001945_20Jun2013_21-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001946_20Jun2013_22-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001953_21Jun2013_14-58.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001954_21Jun2013_15-58.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001955_21Jun2013_16-58.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001956_21Jun2013_17-59.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001957_21Jun2013_18-59.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001958_21Jun2013_20-00.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001959_21Jun2013_21-00.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001960_21Jun2013_22-00.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001961_21Jun2013_23-01.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001962_24Jun2013_08-19.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001975_24Jun2013_11-01.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001976_24Jun2013_12-01.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001977_24Jun2013_13-01.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001978_24Jun2013_14-02.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001979_24Jun2013_15-02.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001980_24Jun2013_16-02.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001981_24Jun2013_17-03.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001982_24Jun2013_18-03.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001983_24Jun2013_19-03.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001984_24Jun2013_20-04.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001985_24Jun2013_21-04.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001986_24Jun2013_22-05.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001987_24Jun2013_23-05.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001988_25Jun2013_00-05.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001989_25Jun2013_08-33.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001990_25Jun2013_09-33.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001991_25Jun2013_10-34.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001992_25Jun2013_11-34.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001993_25Jun2013_12-34.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001994_25Jun2013_13-35.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001996_25Jun2013_14-08.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001997_25Jun2013_15-09.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001998_25Jun2013_16-09.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100001999_25Jun2013_17-09.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100002000_25Jun2013_18-10.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100002001_25Jun2013_19-10.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100002002_25Jun2013_20-10.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100002003_25Jun2013_21-11.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100002004_25Jun2013_22-11.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/1stPreamp/niffte-run100002005_25Jun2013_23-11.trees.root");
+		}
+
+		else if (preamp==2)
+		{
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002092_04Jul2013_13-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002093_04Jul2013_14-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002094_04Jul2013_15-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002095_04Jul2013_16-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002096_04Jul2013_17-55.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002097_04Jul2013_18-55.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002098_04Jul2013_19-55.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002099_04Jul2013_20-56.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002100_04Jul2013_21-56.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002102_05Jul2013_00-33.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002103_05Jul2013_01-33.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002104_05Jul2013_02-33.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002105_05Jul2013_03-34.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002106_05Jul2013_04-34.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002107_05Jul2013_05-34.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002108_05Jul2013_06-35.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002109_05Jul2013_07-35.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002110_05Jul2013_08-35.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002111_05Jul2013_09-36.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002112_05Jul2013_10-36.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002113_05Jul2013_11-36.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002114_05Jul2013_13-07.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002115_05Jul2013_13-10.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002116_05Jul2013_13-11.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002117_05Jul2013_14-11.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002118_05Jul2013_15-12.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002119_05Jul2013_16-12.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002120_05Jul2013_17-12.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002121_05Jul2013_18-13.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002122_05Jul2013_19-13.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002123_05Jul2013_20-13.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002124_05Jul2013_21-14.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002125_05Jul2013_22-14.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002126_05Jul2013_23-14.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002127_06Jul2013_00-15.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002128_06Jul2013_01-15.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002130_06Jul2013_10-43.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002131_06Jul2013_11-44.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002132_06Jul2013_12-44.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002133_06Jul2013_13-44.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002134_06Jul2013_14-45.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002135_06Jul2013_15-45.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002136_06Jul2013_16-45.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002137_06Jul2013_17-46.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002138_06Jul2013_18-46.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002139_06Jul2013_19-46.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002140_06Jul2013_20-47.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002141_06Jul2013_21-47.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002142_06Jul2013_22-48.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002143_06Jul2013_23-48.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002144_07Jul2013_00-48.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002145_07Jul2013_01-49.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002146_07Jul2013_02-49.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002147_07Jul2013_03-49.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002148_07Jul2013_04-50.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002149_07Jul2013_05-50.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002150_07Jul2013_06-50.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002151_07Jul2013_07-51.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002152_07Jul2013_08-51.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002153_07Jul2013_09-51.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002154_07Jul2013_10-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002155_07Jul2013_11-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002156_07Jul2013_12-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002157_07Jul2013_13-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002159_07Jul2013_15-51.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002160_07Jul2013_16-51.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002161_07Jul2013_17-51.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002162_07Jul2013_18-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002163_07Jul2013_19-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002164_07Jul2013_20-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002165_07Jul2013_21-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002166_07Jul2013_22-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002167_07Jul2013_23-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002168_08Jul2013_00-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002169_08Jul2013_01-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002170_08Jul2013_02-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002171_08Jul2013_03-55.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002172_08Jul2013_04-55.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002173_08Jul2013_05-55.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002174_08Jul2013_06-56.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002175_08Jul2013_07-56.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002176_08Jul2013_08-56.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002177_08Jul2013_09-57.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002179_08Jul2013_13-30.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002180_08Jul2013_14-31.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002181_08Jul2013_15-31.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002182_08Jul2013_16-31.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002183_08Jul2013_17-42.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002184_08Jul2013_17-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002185_08Jul2013_18-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002186_08Jul2013_19-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002187_08Jul2013_20-10.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002188_08Jul2013_20-28.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002189_08Jul2013_20-30.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002190_08Jul2013_20-31.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002191_08Jul2013_20-35.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002192_08Jul2013_20-45.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002193_08Jul2013_20-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002194_08Jul2013_21-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002195_08Jul2013_22-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002196_08Jul2013_23-55.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002197_09Jul2013_00-55.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002198_09Jul2013_01-55.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002199_09Jul2013_02-56.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002200_09Jul2013_03-56.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002201_09Jul2013_04-56.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002202_09Jul2013_05-57.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002203_09Jul2013_06-57.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002204_09Jul2013_07-57.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002205_09Jul2013_08-58.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002206_09Jul2013_09-58.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002235_09Jul2013_18-38.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002236_09Jul2013_18-42.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002237_09Jul2013_19-42.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002238_09Jul2013_20-42.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002239_09Jul2013_21-43.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002240_09Jul2013_22-43.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002241_09Jul2013_23-44.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002242_10Jul2013_00-44.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002243_10Jul2013_01-44.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002244_10Jul2013_02-45.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002245_10Jul2013_03-45.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002246_10Jul2013_04-45.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002247_10Jul2013_05-46.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002248_10Jul2013_06-46.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/cft/2ndPreamp/niffte-run100002249_10Jul2013_07-46.trees.root");
+		}
+	}
+	if ( !fissionTrigger )
+	{
+		if (preamp==1)
+		{
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/noMask/1stPreamp/niffte-run100001922_20Jun2013_11-04.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/noMask/1stPreamp/niffte-run100001923_20Jun2013_11-09.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/noMask/1stPreamp/niffte-run100001995_25Jun2013_14-01.trees.root");
+		}
+		else if (preamp==2)
+		{
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/noMask/2ndPreamp/niffte-run100002250_10Jul2013_08-23.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/noMask/2ndPreamp/niffte-run100002251_10Jul2013_08-28.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/noMask/2ndPreamp/niffte-run100002252_10Jul2013_08-33.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/noMask/2ndPreamp/niffte-run100002254_10Jul2013_08-43.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/noMask/2ndPreamp/niffte-run100002255_10Jul2013_08-45.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cm244/noMask/2ndPreamp/niffte-run100002256_10Jul2013_08-47.trees.root");
+		}
+	}
+}
+
+if ( !(strcmp(actinide,"cf252")) )
+{
+	if ( fissionTrigger )
+	{
+		if (preamp==1)
+		{
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/cft/1stPreamp/niffte-run100001865_14Jun2013_12-06.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/cft/1stPreamp/niffte-run100001873_14Jun2013_13-06.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/cft/1stPreamp/niffte-run100001883_17Jun2013_10-04.trees.root");
+		}
+		else if (preamp==2)
+		{
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/cft/2ndPreamp/niffte-run100002068_03Jul2013_14-56.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/cft/2ndPreamp/niffte-run100002069_03Jul2013_15-20.trees.root");			
+		}
+	}
+	if ( !fissionTrigger )
+	{
+		if (preamp==1)
+		{
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001850_13Jun2013_14-49.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001851_13Jun2013_14-54.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001852_13Jun2013_15-01.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001853_13Jun2013_15-07.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001854_13Jun2013_15-12.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001855_13Jun2013_15-18.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001856_13Jun2013_15-23.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001866_14Jun2013_12-26.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001867_14Jun2013_12-32.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001868_14Jun2013_12-37.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001869_14Jun2013_12-43.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001871_14Jun2013_12-53.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001872_14Jun2013_12-59.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001874_17Jun2013_09-13.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001875_17Jun2013_09-19.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001876_17Jun2013_09-24.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001877_17Jun2013_09-31.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001878_17Jun2013_09-36.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001879_17Jun2013_09-41.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001880_17Jun2013_09-47.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001881_17Jun2013_09-52.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/1stPreamp/niffte-run100001882_17Jun2013_09-57.trees.root");
+		}
+		else if (preamp==2)
+		{
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/2ndPreamp/niffte-run100002055_03Jul2013_13-28.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/2ndPreamp/niffte-run100002056_03Jul2013_13-38.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/2ndPreamp/niffte-run100002057_03Jul2013_13-49.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/2ndPreamp/niffte-run100002058_03Jul2013_13-59.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/2ndPreamp/niffte-run100002059_03Jul2013_14-09.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/2ndPreamp/niffte-run100002060_03Jul2013_14-20.trees.root");
+			runs.push_back("~/niffte/trees/rev3821/fitType5/cf252/noMask/2ndPreamp/niffte-run100002061_03Jul2013_14-30.trees.root");
+		}
+	}
+}
+return runs;
+
+}
